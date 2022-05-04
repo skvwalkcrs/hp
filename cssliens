@@ -1,0 +1,37 @@
+<style>* {box-sizing: border-box;}
+
+.ledebut { margin:10px auto; display: grid;
+  grid-template-columns: 130px 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "avafl infosfl";
+  
+  background:#eee; padding:20px; border-radius:10px;
+}
+
+.avafl { grid-area: avafl; }
+.avafl img{width:120px; border-radius:5px;}
+.infosfl { grid-area: infosfl; width:100%; font-size:12px;}
+.fullname{background: #BD6666; width:100%; color:#fff; padding: 5px 15px; text-align:center; font-family:mulish; font-weight:600; font-size:16px;}
+.texteinfo maini {text-transform:uppercase; font-family:times; font-weight:bold; font-style:italic;}
+.texteinfo b { border-bottom: 2px solid #BD6666; margin-bottom:3px;}
+.liensinfos a{background: rgba(189, 102, 102,0.5); padding:1px 5px; margin: 1px; }</style>
+<div class="audsmakesafichedeliens">
+  <div class="ledebut">
+  <div class="avafl"><img src="https://64.media.tumblr.com/e29574d324361ce7cf433d273ec8d7fa/e89828f3b5e95008-ec/s400x600/35f5e9b52e65506156c32aa6e0767a1ef901dac8.png"></div>
+    <div class="infosfl"> <div class="fullname">hailee steinfeld</div>
+      <div class="texteinfo"><center><maini>11/12/1996 (25yo) • actress / singer / model • single </maini></center>
+        <b>main crew :</b> mcu (hawkeye), dickinson<br/>
+      <b>colocation :</b> not available, w/ scarlett johansson.
+  </div>
+      <div class="liensinfos"><a href="">présentation</a> <a href="">préliens disponibles</a> <a href="">moodboard</a></div>
+    </div>
+</div>
+  
+</div>
