@@ -1,0 +1,24 @@
+* {box-sizing: border-box;}
+
+.ledebut { margin:10px auto; display: grid;
+  grid-template-columns: 130px 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 5px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "avafl infosfl";
+  
+  background:#eee; padding:20px; border-radius:10px;
+}
+
+.avafl { grid-area: avafl; }
+.avafl img{width:120px; border-radius:5px;}
+.infosfl { grid-area: infosfl; width:100%; font-size:12px;}
+.fullname{background: #BD6666; width:100%; color:#fff; padding: 5px 15px; text-align:center; font-family:mulish; font-weight:600; font-size:16px;}
+.texteinfo maini {text-transform:uppercase; font-family:times; font-weight:bold; font-style:italic;}
+.texteinfo b { border-bottom: 2px solid #BD6666; margin-bottom:3px;}
+.liensinfos a{background: rgba(189, 102, 102,0.5); padding:1px 5px; margin: 1px; }
